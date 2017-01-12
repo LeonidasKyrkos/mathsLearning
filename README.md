@@ -1,3 +1,3 @@
-# boileoplate
+# Leo Learns Maths
 
-A currently reasonable starting point for my work.
+Didn't pay attention at school. Seems like a useful skill. Let's learn maths.
