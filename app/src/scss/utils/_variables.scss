@@ -1,0 +1,47 @@
+// variables //
+
+// Layout
+
+$dContentWidth: 900;
+
+// Typography
+// -------------------------	
+	
+	// family
+	$ffBase: 			'Padauk', Arial, sans-serif;
+	$ffSecondary: 		'Padauk', Arial, sans-serif;
+	$ffHeadings: 		'Padauk', Arial, serif;
+	
+	
+	// style
+	$fzBase: 			16 !default;
+	$lhBase: 			19 !default;
+	$fwBase: 			400;
+
+// colours 
+
+	// hexes
+	$color1: 			#020304; // black
+	$color2: 			#541F14; // maroon
+	$color3: 			#938172; // brownish
+	$color4: 			#CC9E61; // mustard
+	$color5: 			#626266; // gray
+
+	// roles
+	$colorPrimary: 		$color1;
+	$colorSecondary: 	$color2;
+	$colorTertiary: 	$color4;
+	$colorQuaternary: 	$color5;
+	$colorQuinary: 		$color3;
+
+// Headings
+// -------------------------
+
+	$headings: 							'.alpha','.beta','.gamma','.delta';
+	$headingSizes: 						30,24,20,16;
+	$headingFamilies: 					$ffHeadings, $ffHeadings, $ffHeadings, $ffBase;
+	$headingColors: 					inherit , inherit, inherit, inherit;
+	$headingMargins: 					20,15,10,10;
+	$headingLineHeights: 				35,29,22,19;
+	$headingFontWeights: 				400, 500, 500, 700;
+
