@@ -23,3 +23,24 @@ h1,h2,h3,h4,h5 {
 .alpha {
 	text-align: center;
 }
+
+
+
+// lists
+.numbered-list {
+	list-style-type: decimal;
+	padding-left: em(18);
+
+	> li {
+		margin-bottom: em(10);
+	}
+}
+
+.bullet-list {
+	list-style-type: disc;
+	padding-left: em(18);
+
+	> li {
+		margin-bottom: em(10);
+	}
+}

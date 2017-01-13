@@ -1,0 +1,8 @@
+$module: 		'code';
+
+.#{$module} {
+	background-color: lighten($colorQuaternary,10%);
+	padding: em(20);
+	border-radius: em(10);
+	color: white;
+}

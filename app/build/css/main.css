@@ -148,9 +148,23 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding-bottom: 30px;
+}
+
+.copywrap {
+  max-width: 40.625em;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
 .table {
   border: 1px solid #626266;
   table-layout: fixed;
+  margin-bottom: 1.875em;
+  max-width: 100%;
 }
 
 .table thead {
@@ -211,18 +225,43 @@ h1, h2, h3, h4, h5 {
 }
 
 .delta {
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 12px;
+  font-size: 1.2rem;
   font-family: Padauk, Arial, sans-serif;
   color: inherit;
-  line-height: 1.1875;
+  line-height: 1.58333;
   font-weight: 700;
 }
 
 .delta {
-  margin-bottom: 0.625em;
+  margin-bottom: 0em;
 }
 
 .alpha {
   text-align: center;
+}
+
+.numbered-list {
+  list-style-type: decimal;
+  padding-left: 1.125em;
+}
+
+.numbered-list > li {
+  margin-bottom: 0.625em;
+}
+
+.bullet-list {
+  list-style-type: disc;
+  padding-left: 1.125em;
+}
+
+.bullet-list > li {
+  margin-bottom: 0.625em;
+}
+
+.code {
+  background-color: #7b7b80;
+  padding: 1.25em;
+  border-radius: 0.625em;
+  color: white;
 }

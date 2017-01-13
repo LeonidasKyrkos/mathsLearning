@@ -3,6 +3,7 @@
 // Layout
 
 $dContentWidth: 900;
+$dLineLength: 	650;
 
 // Typography
 // -------------------------	
@@ -38,10 +39,10 @@ $dContentWidth: 900;
 // -------------------------
 
 	$headings: 							'.alpha','.beta','.gamma','.delta';
-	$headingSizes: 						30,24,20,16;
+	$headingSizes: 						30,24,20,12;
 	$headingFamilies: 					$ffHeadings, $ffHeadings, $ffHeadings, $ffBase;
 	$headingColors: 					inherit , inherit, inherit, inherit;
-	$headingMargins: 					20,15,10,10;
+	$headingMargins: 					20,15,10,0;
 	$headingLineHeights: 				35,29,22,19;
 	$headingFontWeights: 				400, 500, 500, 700;
 
